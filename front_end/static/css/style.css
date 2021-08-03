@@ -1,0 +1,80 @@
+body{
+    margin:0;
+}
+#page{
+    display:grid;
+    grid-template-areas:
+                        "header header"
+                        "banner input"
+                        "mid mid"
+                        "base base";
+
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 0.2fr 4fr 2fr 0.2fr;
+    height: 100%;                        
+}
+
+#header{
+    font-size: 25px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Bold;
+    color: white;
+    background: #df8888;
+    /* #df8888 */
+    grid-area: header;
+    justify-content: center;
+
+}
+
+#banner{
+    grid-area: banner;
+    /* background: #ff9883; */
+    background: #A1C3D1;
+    /* background-image: url("./media/background.jpg"); */
+}
+.logo{
+    transform: translateX(+20%);
+    
+}
+#input{
+    grid-area: input;
+    align-content: center;
+    background: #A1C3D1;
+    /* margin:20px; */
+    
+}
+#mid{
+
+}
+
+#base{
+    grid-area: base;
+    /* background: #B39BC8; */
+    background: #A1C3D1;
+}
+
+
+.input{
+    /* align-content: center; */
+    /* transform: translateY(+10%); */
+    vertical-align: middle;
+    margin: 1%;
+    
+}
+
+.button{
+    border-radius: 15px;
+    border: 5px;
+    margin: 1%;
+    background: #df8888;
+    color: white;
+    /* #df8888 */
+
+
+}
+
+.button:hover{
+     color:#000000;
+     background-color:#FFFFFF;
+    }

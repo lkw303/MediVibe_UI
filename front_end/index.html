@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/front_end/static/css/style.css">
+</head>
+<body>
+    <div id = "page">
+        <div id = "header">
+            <img src="./front_end/static/media/MediVibeLogo.png" height="30px" alt="">
+            MEDI VIBE
+        </div>
+
+        <div id = "banner">
+            <img src="./front_end/static/media/MediVibeLogo.png" height="250px" class ="logo" alt="" style = "display:block">
+            <img src="./front_end/static/media/pillswallpaper.png" height="100px" class ="logo" alt="" style = "display:block">
+        </div>
+    
+        <div id = "input">
+                <!-- <img src="./media/Medicine.png" width = "50px"> -->
+            <div class = "input">
+                <input type="number" name ="Medicine ID" id = "id" class ="input">Medicine Id</input>
+                <br>
+                <input type="number" name ="Cartridge ID" id = "cart_id" class ="input">Cartridge Id</input>
+                <br>
+                <input type="number" name ="Patient ID" id = "patient_id" class ="input">Patient Id</input>
+                <br>
+                <input type="number" name ="Staff ID" id = "staff_id" class ="input">Staff Id</input>
+                <br>
+                <input type="number" name ="Cartridge Serial" id = "cart_serial" class ="input">Cartridge Serial No.</input>
+                <br>
+                <input type="number" name="Capacity" id= "capacity" class ="input">Capacity</input>
+                <br>
+                <input type="number" name = "Dosage" id = "dosage" class ="input">Dosage</input>
+                <br>
+                <input type="number" name = "Size" id = "size" class ="input">Size</input>
+                <br>
+                <input type="number" name = "frequency" id = "frequency" class ="input">Frequency</input>
+                <br>
+                <input type="number" name = "start_hour" id = "start_hr" class ="input">Start Hour</input>
+                <br>
+                <input type="number" name = "start_min" id = "start_min" class ="input">Start Min</input>
+                <br>
+                <input type="number" name = "end_hour" id = "end_hr" class ="input">End Hour</input>
+                <br>
+                <input type="number" name = "end_min" id = "end_min" class ="input">End Min</input>
+                <br>
+                <button id = "connect" onclick= "connect()" class = "button" >Connect</button>
+                <br>
+                <button id = "send_data" onclick= "sendSocket()" class = "button" >Send</button>
+                <br>
+                <button id = "disconnect" onclick= "disconnect()" class = "button">Disconnect</button>
+                <br>
+                <button id = "read_rfid" onclick= "readRFID()" class = "button">Read RFID</button>
+                <br>
+                <button id = "read_rfid2" onclick= "readRFID2()" class = "button">Read RFID2</button>
+                <br>
+                <button id = "write_rfid" onclick= "writeRFID()" class = "button">Write RFID</button>
+                <br>
+                <button id = "write_rfid_2" onclick= "writeRFID2()" class = "button">Write RFID2</button>
+            </div>
+
+        </div>
+        <div id = "base">
+            
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js'></script>
+    <script  type ="text/javascript" src = "/front_end/static/js/main.js" ></script>
+    
+</body>
+</html>

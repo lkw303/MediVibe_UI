@@ -1,0 +1,19 @@
+{
+  "name": "medivibe_ui",
+  "version": "1.0.0",
+  "description": "pharmacy side user interface for Medivibe",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kai",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "save": "^2.4.0",
+    "socket.io": "^4.0.0",
+    "@serialport/parser-readline": "^8.0.6",
+    "serialport": "^8.0.7"
+  }
+}
