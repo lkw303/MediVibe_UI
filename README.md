@@ -1,7 +1,7 @@
 # MediVibe Web User Interface
 
 ## Description
-The Medivibe Web UI is a web based user interface for the [MediVibe](https://github.com/lkw303/MediVibe) medicine dispenser that allows for the ease of reading and writing of information to and from the RFID of the medicine cartridge.
+The Medivibe Web UI is a web based user interface to be used by pharmacists in conjunction with the [MediVibe](https://github.com/lkw303/MediVibe) medicine dispenser - made for SUTD's Engineering Design (30.007) module. The MediVibe UI allows for the ease of reading and writing of information to and from the RFID of the medicine cartridge.
 <br><br/>
 Web User Interface            |  RFID Reader/Writer
 :-------------------------: |:-------------------------:
