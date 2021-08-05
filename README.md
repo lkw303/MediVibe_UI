@@ -8,10 +8,18 @@ Web User Interface            |  RFID Reader/Writer
 ![](media/medivibe_webpage.jpg) | ![](media/rfid_reader_writer.jpg)
     
 <br/>
-The pharmacist is able to key in the dispensing information of the medication using the web user interface such as the medication identification number, the frequency the medication should be taken and the dosage (i.e number of pills taken each schduled time). This information will then be flashed into the RFID chip on the medical cartridge. On loading the cartridge onto the dispenser the dispenser then dispenses the pills accordingly.
+The pharmacist is able to key in the dispensing information of the medication using the web user interface, such as:
+
+* the medication identification number
+* the frequency the medication should be taken 
+* the dosage (i.e number of pills taken each schduled time).
+* pharmacist ID (to identify the pharmacist who loaded the cartridge)
+* Patient ID (to identify the patient)
+
+This information will then be flashed into the RFID chip on the medical cartridge. On loading the cartridge onto the dispenser the dispenser will read the data from the RFID tag and dispense the pills accordingly.
 <br><br/>
 
-The UI also allows for the pharmacist to the data from the RFID thus allowing them to double check the data they have just flashed into the RFID as well as check the previous data input into the RFID.
+The UI also allows for the pharmacist to the data from the RFID tag thus allowing them to double check the data they have just flashed into the RFID as well as check the previous data input into the RFID.
 
 <br><br/>
 
@@ -31,5 +39,5 @@ cd MediVibe_UI
 npm install
 ```
 
-
+## Running
 
