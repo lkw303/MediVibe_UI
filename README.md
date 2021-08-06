@@ -6,12 +6,16 @@ The Medivibe Web UI is a web based user interface to be used by pharmacists in c
 Web User Interface            |  RFID Reader/Writer
 :-------------------------: |:-------------------------:
 ![](media/medivibe_webpage.jpg) | ![](media/rfid_reader_writer.jpg)
-    
+
+Final Product           |  Final Product Render
+:-------------------------: |:-------------------------:
+![](media/final_prototype_front_view.jpg) | ![](media/render_final_prototype_front_view.jpg)
+
 <br/>
 The pharmacist is able to key in the dispensing information of the medication using the web user interface, such as:
 
 * the medication identification number
-* the frequency the medication should be taken 
+* the frequency the medication should be taken
 * the dosage (i.e number of pills taken each schduled time).
 * pharmacist ID (to identify the pharmacist who loaded the cartridge)
 * Patient ID (to identify the patient)
@@ -40,4 +44,7 @@ npm install
 ```
 
 ## Running
-
+```
+cd MediVibe_UI
+node server.js
+```
